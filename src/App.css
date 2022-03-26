@@ -1,38 +1,115 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap'); 
+
+/* apply on all pages */
+.App{
+  background-color: #ecf0f1; 
+  font-family: 'Montserrat', sans-serif;
+}
+
+#nav-bar{
+  background-color: #0a1612; 
+}
+
+.nav-bar-tab{
+  color: white;
+  display: inline-block;
+  padding: 20px;
+}
+
+.nav-bar-tab:hover{
+  background-color:#525458 ;
+}
+/* ------------------- */
+
+
+/* Landing Page  */
+#landing-page-container{
+  background: url("background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100vw 100vh; 
+  width: 98vw;
+  height: 86vh;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#landing-page-header{
+  font-size: 3em;
+  padding-top:30vh;
+}
+/* ------------------- */
+/* Clients Page */
+#clients-table-headers{
+  background-color: #F7CE3E; 
+  box-shadow: #0a1612 1px 1px 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#clients-table-headers{
+  display: grid;
+  width: 90vw;
+  grid-template-columns: repeat(7 ,1fr);
+  font-weight: bold;
+  margin:auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.client{
+  display: grid;
+  width: 90vw;
+  grid-template-columns: repeat(7 ,1fr);
+  margin:auto;
+  border-bottom: 1px solid #d3d3d3;
 }
 
-.App-link {
-  color: #61dafb;
+
+.popup-content{
+  background-color:rgba(17, 16, 16, 0.856) !important; 
+  width:400px !important;
+  height: 200px !important;
+  border-radius: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+.popup-item{
+  margin-top: 15px;
+  margin-left:20px;
 }
+
+#add-client-button{
+  margin:20px;
+  padding: 10px;
+  background: #F7CE3E;
+  font-weight: bold;
+  width:200px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px;
+}
+
+#user-icon{
+  background-color:#e74c3c;
+}
+
+#globe-icon{
+  background-color:#f1c40f;
+}
+
+
+
+
+
+
+
+  
+  
+  
+  
+ 
+
+
+  
+ 
+  
+  
+        
