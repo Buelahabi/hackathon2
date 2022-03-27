@@ -27,7 +27,6 @@ router.post('/client', async function(req, res){
         res.send(clients)
     })
 })
-
 router.put('/clients/:id', async function(req, res){
     let clientData = req.body
     let id = req.params.id
@@ -36,3 +35,5 @@ router.put('/clients/:id', async function(req, res){
         res.send(clients)
     })
 })
+
+module.exports = router
